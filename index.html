@@ -1,0 +1,118 @@
+<head>
+    <title>MIDTERM PROJECT</title>
+</head>
+<style>
+    body {
+        background-color: rgb(238, 238, 236);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-content: space-between;
+
+    }
+    .Home-Page {
+      
+       width: 250px;
+       max-width: 250px;
+       margin-top: 8%;
+       display: block;
+       max-height: 500px;
+       align-items: center;
+    }
+    
+    .img1 {
+        border-radius: 50%;
+        margin: auto;
+    }
+    .logo-image {
+        display: inline-block;
+        margin: auto;
+        align-items: center;
+        cursor: pointer;
+        color: rgb(44, 43, 42);
+    }
+    .links {
+        display: block;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+        color: rgb(43, 42, 41);
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .link {
+        display: block;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+        color: rgb(43, 42, 41);
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
+    .links:hover{
+        opacity: 0.3;
+    }
+    .link:hover {
+        opacity: 0.3;
+    }
+    .header-2 {
+        margin-top: 5%;
+        background-color: rgba(236, 236, 236, 0.726);
+        display: block;
+        width: 1000px;
+        height: 50px;
+        text-align: center;
+        padding: 15px;
+        letter-spacing: 35px;
+        color: rgb(88, 85, 81);
+        font-size: 29px;
+    }
+    .Image-link-shop {
+        align-items: center;
+        cursor: pointer;
+        margin-top: 15px;
+        max-width: 1000px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        max-width: 1000px;
+    }
+    .img2-description {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 8px;
+        color: rgb(92, 90, 88);
+        border-radius: 1px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="Home-Page">
+            <div class="logo-image"><a href="index.html"><img class="img1" src="Logo-Image1.jpg" alt="logo" height="200px" width="200px"></a><br><br><br>
+                <a class="links" href="Shop.html">SHOP</a><br><br>
+                <a class="links" href="gallery.html">GALLERY</a><br><br><br>
+
+                <a class="link" href="About.html">ABOUT</a><br><br>
+                <a class="link" href="Contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="header-2">
+                <header><p>R E I J I N</p></header>
+            </div>
+            <div class="Image-link-shop">
+                <a href="shop.html"><img src="spirits.jpg" width="850px" height="500px"></a><br>
+                <p class="img2-description"><b>Dance of the Spirits</b></p>
+            </div>
+
+        </div>
+    </div>
+</body>
